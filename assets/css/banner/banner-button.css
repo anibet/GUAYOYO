@@ -1,0 +1,9 @@
+.banner__button{
+    color: #19191a;
+    font-weight: bold;
+    background: #254bf3;
+}
+.banner__button:hover{
+    cursor: pointer;
+    
+}

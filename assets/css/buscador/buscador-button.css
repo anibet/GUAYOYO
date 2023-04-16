@@ -1,0 +1,16 @@
+.buscador__button{
+    background: url(/assets/img/lupa1.png) no-repeat left top;
+    width:70px;  /*ancho del botón donde irá tu imagen de la lupa*/
+    height:24px;  /*alto del botón donde irá tu imagen de la lupa*/
+    margin-left:5px;
+    border:none; 
+    background:#bbbaba;   /*color de fondo*/
+    color:#646363;  /*color de la letra*/
+    text-overflow: clip;
+    border-radius: 5px;
+}
+
+.buscador__button:hover{
+    cursor: pointer;
+    
+}

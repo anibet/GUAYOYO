@@ -1,0 +1,11 @@
+.secciones{
+    align-items: flex-start;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:  3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}

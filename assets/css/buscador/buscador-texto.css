@@ -1,0 +1,10 @@
+.buscador__texto{
+        width:185px;
+        height:19px;
+        background:#bbbaba;   /*color de fondo*/
+        border:none;
+        padding:2px 5px;
+        font-weight:normal;
+        color:#b0b0b0;  /*color de la letra*/
+        border-radius: 5px;
+}

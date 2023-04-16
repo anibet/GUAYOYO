@@ -1,0 +1,9 @@
+.menu__link{
+    color: #595959;
+    margin: auto;
+    text-decoration: none;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
+

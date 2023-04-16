@@ -1,0 +1,13 @@
+.product__button{
+    background: #ffffff;
+    border: none;
+    color:blue;
+    padding: 0;
+    text-align: left;
+    
+}
+
+.product__button:hover{
+    cursor: pointer;
+    
+}

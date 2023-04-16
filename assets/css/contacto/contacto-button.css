@@ -1,0 +1,13 @@
+.contacto__button{
+	height: 30px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	background-color: #1060f5; 
+	border-color: #1060f5; 
+	border-style: solid; 	
+	width: 150px;   
+    cursor: pointer;
+    color: #ffffff;
+}

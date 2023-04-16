@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guayoyo Coffe| Crear cuenta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/base/base.css">
+    <link rel="stylesheet" href="./assets/css/registro.css">
+    <link rel="stylesheet" href="./assets/css/componentes/card.css">
+    <link rel="stylesheet" href="./assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="./assets/css/componentes/button.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-button.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-mensaje.css">
+    <link rel="stylesheet" href="./assets/css/footer/rodapie.css">
+    <link rel="stylesheet" href="./assets/css/footer/rodapie-titulo.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="#">
+            <img src="./assets/img/Guayoyo.png" alt="Logo Guayoyo" class="registry-header__logo">
+          </a>
+          <form>
+            <input type="text" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+          </form>
+        </nav>
+      </header>
+    <main class="container flex flex--column flex--center">
+        <div class="cadastro-cabecalho">
+            <h1 class="registry-header__title">Iniciar sesión</h1>
+        </div>
+        <section class="cartao">
+            <h2 class="card__title">Completa tu registro</h2>
+            <form action="./registro_concluido.html" class="formulario flex flex--column">
+                <fieldset>
+
+                    <div class="input-container">
+                        <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                        <label class="input-label" for="email">Email</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <input name="password" id="password" class="input" type="password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
+                        <label class="input-label" for="password">Contraseña</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    
+                </fieldset>
+                <button class="button">Enviar</a>
+            </form>
+        </section>
+    </main>
+     <!-- Página de contacto -->
+     <section class="contacto"> <!--quienes-->
+      <img class="logo" src="./assets/img/Guayoyo.png" alt="guayoyocofee">
+      <div>
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li class="menu__item"><a class="menu__link" href="">Quienes somos</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Politica de privacidad</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Programa de fidelidad</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Nuestras tiendas</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Quiero ser franquisiado</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Anuncie aqui</a>
+        </ul>
+      </div>
+      <div>
+      <h4>Hable con nosotros</h4>
+      <form class="contact-form">
+        <label for="name">Nombre:</label><input type="text" id="name">
+        <label for="email">Email:</label><input type="email" id="email">
+        <label for="message">Mensaje:</label><textarea class="contacto__mensaje"></textarea>
+        <button class="contacto__button">Enviar mensaje</button>
+      </form>
+      </div>
+      </nav>
+    </section>
+
+    <!-- Pie de página con formulario de contacto y otras informaciónes -->
+    <footer class="rodapie">
+      <h5 class="rodapie__titulo">Desarrollado por: Betzivan Gonzalez<br> <p>2023</p></h5>
+    </footer>
+    <script src="./js/validaciones.js"></script>
+</body>
+</html>
